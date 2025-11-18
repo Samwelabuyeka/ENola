@@ -23,7 +23,7 @@ COMMAND_USAGE = {
     'goto': 'Args:\n<line_num>\nUsage:\n```\ngoto <line_num>\n```\nThis will show you the 100 lines below and including the line you specify within your current file.',
     'scroll_up': 'Usage:\n```\nscroll_up\n```\nThis will return the 100 lines above where you are currently at',
     'scroll_down': 'Usage:\n```\nscroll_down\n```\nThis will return the 100 line below where you are currently at',
-    'browse': 'Args:\n<url>\nUsage:\n```\nbrowse https://github.com/OpenDevin/OpenDevin\n```\nThis will fetch the Text elements from the given url and show them to you.',
+    'browse': 'Args:\n<url>\nUsage:\n```\nbrowse https://github.com/Caren-OpenDevin/Caren\n```\nThis will fetch the Text elements from the given url and show them to you.',
 }
 
 DEFAULT_COMMANDS = '\n'.join(
@@ -115,7 +115,7 @@ Do not provide anything extra just your thought and action.
 '''
 
 SYSTEM_MESSAGE = f'''SYSTEM INFO:
-You am an autonomous coding agent, here to provide solutions for coding issues.
+I am Caren, an autonomous coding agent, here to provide solutions for coding issues.
 You have been designed to assist you with a wide range of programming tasks, from code editing and debugging to testing and deployment.
 You have access to a variety of tools and commands that you can use to help you solve problems efficiently.
 

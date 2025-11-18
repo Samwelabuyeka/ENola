@@ -1,15 +1,15 @@
 {
   "WORKSPACE$TITLE": {
-    "en": "OpenDevin Workspace",
-    "zh-CN": "OpenDevin 工作区",
-    "de": "OpenDevin Arbeitsbereich",
-    "ko-KR": "OpenDevin 워크스페이스",
-    "no": "OpenDevin Arbeidsområde",
-    "zh-TW": "OpenDevin 工作區",
-    "it": "Area di lavoro OpenDevin",
-    "pt": "Espaço de trabalho OpenDevin",
-    "es": "Espacio de trabajo de OpenDevin",
-    "tr": "OpenDevin Çalışma Alanı"
+    "en": "Caren Workspace",
+    "zh-CN": "Caren 工作区",
+    "de": "Caren Arbeitsbereich",
+    "ko-KR": "Caren 워크스페이스",
+    "no": "Caren Arbeidsområde",
+    "zh-TW": "Caren 工作區",
+    "it": "Area di lavoro Caren",
+    "pt": "Espaço de trabalho Caren",
+    "es": "Espacio de trabajo de Caren",
+    "tr": "Caren Çalışma Alanı"
   },
   "WORKSPACE$TERMINAL_TAB_LABEL": {
     "en": "Terminal",
@@ -60,16 +60,16 @@
     "tr": "Tarayıcı"
   },
   "CONFIGURATION$OPENDEVIN_WORKSPACE_DIRECTORY_INPUT_LABEL": {
-    "en": "OpenDevin Workspace directory",
-    "zh-CN": "OpenDevin 工作区目录",
-    "de": "OpenDevin Arbeitsbereichsverzeichnis",
-    "ko-KR": "OpenDevin 워크스페이스 폴더",
-    "no": "OpenDevin arbeidsmappe",
-    "zh-TW": "OpenDevin 工作區目錄",
-    "it": "Directory dell'area di lavoro OpenDevin",
-    "pt": "Diretório do espaço de trabalho OpenDevin",
-    "es": "Directorio del espacio de trabajo de OpenDevin",
-    "tr": "OpenDevin çalışma alanı dizini"
+    "en": "Caren Workspace directory",
+    "zh-CN": "Caren 工作区目录",
+    "de": "Caren Arbeitsbereichsverzeichnis",
+    "ko-KR": "Caren 워크스페이스 폴더",
+    "no": "Caren arbeidsmappe",
+    "zh-TW": "Caren 工作區目錄",
+    "it": "Directory dell'area di lavoro Caren",
+    "pt": "Diretório do espaço de trabalho Caren",
+    "es": "Directorio del espacio de trabajo de Caren",
+    "tr": "Caren çalışma alanı dizini"
   },
   "CONFIGURATION$OPENDEVIN_WORKSPACE_DIRECTORY_INPUT_PLACEHOLDER": {
     "en": "Default: ./workspace",
@@ -227,4 +227,4 @@
     "es": "Enviar",
     "tr": "Gönder"
   }
- }
+}

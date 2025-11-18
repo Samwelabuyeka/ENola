@@ -4,7 +4,7 @@ import { fetchMsgs, clearMsgs } from "../services/session";
 import { sendChatMessageFromEvent } from "../services/chatService";
 import { handleAssistantMessage } from "../services/actions";
 import { ResFetchMsg } from "../types/ResponseType";
-import ODModal from "./ODModal";
+import CarenModal from "./CarenModal";
 import toast from "../utils/toast";
 
 interface LoadMessageModalProps {
@@ -48,7 +48,7 @@ function LoadMessageModal({
   };
 
   return (
-    <ODModal
+    <CarenModal
       size="md"
       isOpen={isOpen}
       onClose={onClose}
@@ -76,7 +76,7 @@ function LoadMessageModal({
         You seem to have an unfinished task. Would you like to pick up where you
         left off or start fresh?
       </p>
-    </ODModal>
+    </CarenModal>
   );
 }
 

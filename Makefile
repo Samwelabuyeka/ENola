@@ -1,7 +1,7 @@
-# Makefile for OpenDevin project
+# Makefile for Caren project
 
 # Variables
-DOCKER_IMAGE = ghcr.io/opendevin/sandbox
+DOCKER_IMAGE = ghcr.io/caren/sandbox
 BACKEND_PORT = 3000
 BACKEND_HOST = "127.0.0.1:$(BACKEND_PORT)"
 FRONTEND_PORT = 3001
@@ -108,7 +108,7 @@ install-precommit-hooks:
 
 lint:
 	@echo "$(YELLOW)Running linters...$(RESET)"
-	@poetry run pre-commit run --files opendevin/**/* agenthub/**/* --show-diff-on-failure --config $(PRECOMMIT_CONFIG_PATH)
+	@poetry run pre-commit run --files caren/**/* agenthub/**/* --show-diff-on-failure --config $(PRECOMMIT_CONFIG_PATH)
 
 build-frontend:
 	@echo "$(YELLOW)Building frontend...$(RESET)"
@@ -117,7 +117,7 @@ build-frontend:
 # Start backend
 start-backend:
 	@echo "$(YELLOW)Starting backend...$(RESET)"
-	@poetry run uvicorn opendevin.server.listen:app --port $(BACKEND_PORT)
+	@poetry run uvicorn caren.server.listen:app --port $(BACKEND_PORT)
 
 # Start frontend
 start-frontend:
@@ -133,7 +133,7 @@ run:
 	fi
 	@mkdir -p logs
 	@echo "$(YELLOW)Starting backend server...$(RESET)"
-	@poetry run uvicorn opendevin.server.listen:app --port $(BACKEND_PORT) &
+	@poetry run uvicorn caren.server.listen:app --port $(BACKEND_PORT) &
 	@echo "$(YELLOW)Waiting for the backend to start...$(RESET)"
 	@until nc -z localhost $(BACKEND_PORT); do sleep 0.1; done
 	@echo "$(GREEN)Backend started successfully.$(RESET)"
@@ -183,11 +183,11 @@ help:
 	@echo "Targets:"
 	@echo "  $(GREEN)build$(RESET)               - Build project, including environment setup and dependencies."
 	@echo "  $(GREEN)lint$(RESET)                - Run linters on the project."
-	@echo "  $(GREEN)setup-config$(RESET)        - Setup the configuration for OpenDevin by providing LLM API key,"
+	@echo "  $(GREEN)setup-config$(RESET)        - Setup the configuration for Caren by providing LLM API key,"
 	@echo "                        LLM Model name, and workspace directory."
-	@echo "  $(GREEN)start-backend$(RESET)       - Start the backend server for the OpenDevin project."
-	@echo "  $(GREEN)start-frontend$(RESET)      - Start the frontend server for the OpenDevin project."
-	@echo "  $(GREEN)run$(RESET)                 - Run the OpenDevin application, starting both backend and frontend servers."
+	@echo "  $(GREEN)start-backend$(RESET)       - Start the backend server for the Caren project."
+	@echo "  $(GREEN)start-frontend$(RESET)      - Start the frontend server for the Caren project."
+	@echo "  $(GREEN)run$(RESET)                 - Run the Caren application, starting both backend and frontend servers."
 	@echo "                        Backend Log file will be stored in the 'logs' directory."
 	@echo "  $(GREEN)help$(RESET)                - Display this help message, providing information on available targets."
 

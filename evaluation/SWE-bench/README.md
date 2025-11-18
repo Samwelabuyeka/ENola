@@ -4,7 +4,7 @@ Work in-progress.
 
 **TODOs**:
 
-- [ ] Generate `predictions` files given an OpenDevin `Agent` implementation. We could borrow something from [devin's eval-harness implementation](https://github.com/CognitionAI/devin-swebench-results/tree/main/harness), for example, [how to generate `TestSpec`](https://github.com/CognitionAI/devin-swebench-results/blob/main/harness/scripts.py#L150-L160).
+- [ ] Generate `predictions` files given an Caren `Agent` implementation. We could borrow something from [devin's eval-harness implementation](https://github.com/CognitionAI/devin-swebench-results/tree/main/harness), for example, [how to generate `TestSpec`](https://github.com/CognitionAI/devin-swebench-results/blob/main/harness/scripts.py#L150-L160).
 - [ ] Make sure the evaluation suite runs on all repos. I only tested on `matplotlib` so far, `scikit-learn` does not work for now (see [this issue](https://github.com/princeton-nlp/SWE-bench/issues/57))).
 
 
@@ -20,7 +20,7 @@ cd evaluation/SWE-bench
 
 # Clone the repo
 # This is a fork that fixes some issues that stops matplotlib from running (see https://github.com/princeton-nlp/SWE-bench/pull/56)
-git clone https://github.com/OpenDevin/SWE-bench.git
+git clone https://github.com/Caren/SWE-bench.git
 
 # Enter the docker container
 ./scripts/run_docker_interactive.sh

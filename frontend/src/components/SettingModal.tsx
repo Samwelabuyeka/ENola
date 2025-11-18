@@ -18,7 +18,7 @@ import {
 import { I18nKey } from "../i18n/declaration";
 import { AvailableLanguages } from "../i18n";
 import { ArgConfigType } from "../types/ConfigType";
-import ODModal from "./ODModal";
+import CarenModal from "./CarenModal";
 
 interface Props {
   isOpen: boolean;
@@ -65,7 +65,7 @@ function InnerSettingModal({ isOpen, onClose }: Props): JSX.Element {
     item.toLowerCase().includes(input.toLowerCase());
 
   return (
-    <ODModal
+    <CarenModal
       isOpen={isOpen}
       onClose={onClose}
       title={t(I18nKey.CONFIGURATION$MODAL_TITLE)}
@@ -141,7 +141,7 @@ function InnerSettingModal({ isOpen, onClose }: Props): JSX.Element {
           ))}
         </Select>
       </>
-    </ODModal>
+    </CarenModal>
   );
 }
 

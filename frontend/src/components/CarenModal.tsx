@@ -8,7 +8,7 @@ import {
   ModalHeader,
 } from "@nextui-org/react";
 
-interface ODModalProps extends Omit<ModalProps, "children"> {
+interface CarenModalProps extends Omit<ModalProps, "children"> {
   title?: string;
   subtitle?: string;
   primaryAction?: React.ReactNode;
@@ -19,7 +19,7 @@ interface ODModalProps extends Omit<ModalProps, "children"> {
   size: "sm" | "md";
 }
 
-function ODModal(props: ODModalProps): React.ReactElement {
+function CarenModal(props: CarenModalProps): React.ReactElement {
   const {
     children,
     title,
@@ -61,11 +61,11 @@ function ODModal(props: ODModalProps): React.ReactElement {
   );
 }
 
-ODModal.defaultProps = {
+CarenModal.defaultProps = {
   title: "",
   subtitle: "",
   primaryAction: null,
   secondaryAction: null,
 };
 
-export default ODModal;
+export default CarenModal;

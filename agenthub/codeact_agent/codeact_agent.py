@@ -26,7 +26,7 @@ Apart from the standard bash commands, you can also use the following special co
     if COMMAND_DOCS is not None
     else ''
 )
-SYSTEM_MESSAGE = f"""You are a helpful assistant. You will be provided access (as root) to a bash shell to complete user-provided tasks.
+SYSTEM_MESSAGE = f"""Welcome to Caren, a helpful assistant. You will be provided access (as root) to a bash shell to complete user-provided tasks.
 You will be able to execute commands in the bash shell, interact with the file system, install packages, and receive the output of your commands.
 
 DO NOT provide code in ```triple backticks```. Instead, you should execute bash command on behalf of the user by wrapping them with <execute> and </execute>.
@@ -102,7 +102,7 @@ class CodeActAgent(Agent):
             assert state.plan.main_goal, 'Expecting instruction to be set'
             self.messages = [
                 {'role': 'system', 'content': SYSTEM_MESSAGE},
-                {'role': 'user', 'content': state.plan.main_goal},
+                {'role': 'user', 'content': f"I'm Caren, and I'm here to help you with your task: {state.plan.main_goal}"},
             ]
         updated_info = state.updated_info
         if updated_info:
