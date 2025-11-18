@@ -1,20 +1,20 @@
 import re
 from typing import List, Mapping
 
-from opendevin.action import (
+from ENola.action import (
     Action,
     AgentEchoAction,
     AgentFinishAction,
     CmdRunAction,
 )
-from opendevin.agent import Agent
-from opendevin.llm.llm import LLM
-from opendevin.observation import (
+from ENola.agent import Agent
+from ENola.llm.llm import LLM
+from ENola.observation import (
     AgentMessageObservation,
     CmdOutputObservation,
 )
-from opendevin.parse_commands import parse_command_file
-from opendevin.state import State
+from ENola.parse_commands import parse_command_file
+from ENola.state import State
 
 COMMAND_DOCS = parse_command_file()
 COMMAND_SEGMENT = (

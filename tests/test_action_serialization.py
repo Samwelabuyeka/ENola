@@ -1,4 +1,4 @@
-from opendevin.action import (
+from ENola.action import (
     action_from_dict,
     Action,
     AgentThinkAction,

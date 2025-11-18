@@ -1,7 +1,7 @@
 import argparse
 import pytest
 
-from opendevin import config
+from ENola import config
 
 if __name__ == '__main__':
     """Main entry point of the script.

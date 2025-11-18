@@ -1,4 +1,4 @@
-from opendevin.action import (
+from ENola.action import (
     Action,
     AgentFinishAction,
     CmdRunAction,

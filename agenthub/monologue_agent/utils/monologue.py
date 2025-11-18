@@ -1,7 +1,7 @@
 import traceback
 
-from opendevin.llm.llm import LLM
-from opendevin.exceptions import AgentEventTypeError
+from ENola.llm.llm import LLM
+from ENola.exceptions import AgentEventTypeError
 import agenthub.monologue_agent.utils.json as json
 import agenthub.monologue_agent.utils.prompts as prompts
 

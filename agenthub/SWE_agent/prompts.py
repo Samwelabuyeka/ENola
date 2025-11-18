@@ -1,4 +1,4 @@
-from opendevin.parse_commands import parse_command_file
+from ENola.parse_commands import parse_command_file
 
 DEFAULT_COMMANDS_DICT = {
     'exit': 'Executed when task is complete',

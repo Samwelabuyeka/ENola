@@ -1,12 +1,12 @@
 import json
 from typing import List, Tuple, Dict, Type
-from opendevin.plan import Plan
-from opendevin.action import Action, action_from_dict
-from opendevin.observation import Observation
-from opendevin.schema import ActionType
-from opendevin.logger import opendevin_logger as logger
+from ENola.plan import Plan
+from ENola.action import Action, action_from_dict
+from ENola.observation import Observation
+from ENola.schema import ActionType
+from ENola.logger import ENola_logger as logger
 
-from opendevin.action import (
+from ENola.action import (
     NullAction,
     CmdRunAction,
     CmdKillAction,
@@ -21,7 +21,7 @@ from opendevin.action import (
     ModifyTaskAction,
 )
 
-from opendevin.observation import (
+from ENola.observation import (
     NullObservation,
 )
 

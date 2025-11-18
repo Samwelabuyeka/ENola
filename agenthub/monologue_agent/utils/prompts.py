@@ -5,14 +5,14 @@ from json import JSONDecodeError
 
 import re
 
-from opendevin.action import (
+from ENola.action import (
     action_from_dict,
     Action,
 )
-from opendevin.observation import (
+from ENola.observation import (
     CmdOutputObservation,
 )
-from opendevin.exceptions import LLMOutputError
+from ENola.exceptions import LLMOutputError
 
 ACTION_PROMPT = """
 You're a thoughtful robot. Your main task is this:
