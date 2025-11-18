@@ -1,25 +1,10 @@
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+<div align="center">
+  <img src="./logo.png" alt="Logo" width="200" height="200">
+  <h1 align="center">Caren: Code Less, Make More</h1>
+</div>
 
 <div align="center">
-  <a href="https://github.com/Caren/Caren/graphs/contributors"><img src="https://img.shields.io/github/contributors/Caren/caren?style=for-the-badge" alt="Contributors"></a>
   <a href="https://github.com/Caren/Caren/network/members"><img src="https://img.shields.io/github/forks/Caren/caren?style=for-the-badge" alt="Forks"></a>
   <a href="https://github.com/Caren/Caren/stargazers"><img src="https://img.shields.io/github/stars/Caren/caren?style=for-the-badge" alt="Stargazers"></a>
   <a href="https://github.com/Caren/Caren/issues"><img src="https://img.shields.io/github/issues/Caren/caren?style=for-the-badge" alt="Issues"></a>
@@ -29,33 +14,12 @@
   <a href="https://discord.gg/mBuDGRzzES"><img src="https://img.shields.io/badge/Discord-Join%20Us-purple?logo=discord&logoColor=white&style=for-the-badge" alt="Join our Discord community"></a>
 </div>
 
-<!-- PROJECT LOGO -->
-<div align="center">
-  <img src="./logo.png" alt="Logo" width="200" height="200">
-  <h1 align="center">Caren: Code Less, Make More</h1>
-</div>
-
-
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>🗂️ Table of Contents</summary>
   <ol>
-    <li><a href="#-mission">🎯 Mission</a></li>
-    <li><a href="#-what-is-devin">🤔 What is Devin?</a></li>
-    <li><a href="#-why-Caren">🐚 Why Caren?</a></li>
+    <li><a href="#-about">🎯 About</a></li>
     <li><a href="#-project-status">🚧 Project Status</a></li>
-      <a href="#-get-started">🚀 Get Started</a>
-      <ul>
-        <li><a href="#1-requirements">1. Requirements</a></li>
-        <li><a href="#2-build-and-setup">2. Build and Setup</a></li>
-        <li><a href="#3-run-the-application">3. Run the Application</a></li>
-        <li><a href="#4-individual-server-startup">4. Individual Server Startup</a></li>
-        <li><a href="#5-help">5. Help</a></li>
-      </ul>
-    </li>
-    <li><a href="#%EF%B8%8F-research-strategy">⭐️ Research Strategy</a></li>
+    <li><a href="#-get-started">🚀 Get Started</a></li>
     <li><a href="#-how-to-contribute">🤝 How to Contribute</a></li>
     <li><a href="#-join-our-community">🤖 Join Our Community</a></li>
     <li><a href="#%EF%B8%8F-built-with">🛠️ Built With</a></li>
@@ -63,63 +27,23 @@
   </ol>
 </details>
 
-## 🎯 Mission
+## 🎯 About
 
-[Project Demo Video](https://github.com/Caren/Caren/assets/38853559/71a472cc-df34-430c-8b1d-4d7286c807c9)
-
-
-Welcome to Caren, an open-source project aiming to replicate Devin, an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects. This project aspires to replicate, enhance, and innovate upon Devin through the power of the open-source community.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
-
-## 🤔 What is Devin?
-Devin represents a cutting-edge autonomous agent designed to navigate the complexities of software engineering. It leverages a combination of tools such as a shell, code editor, and web browser, showcasing the untapped potential of LLMs in software development. Our goal is to explore and expand upon Devin's capabilities, identifying both its strengths and areas for improvement, to guide the progress of open code models.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
-
-## 🐚 Why Caren?
-The Caren project is born out of a desire to replicate, enhance, and innovate beyond the original Devin model. By engaging the open-source community, we aim to tackle the challenges faced by Code LLMs in practical scenarios, producing works that significantly contribute to the community and pave the way for future advancements.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+Caren is an open-source project that aims to replicate and enhance Devin, an autonomous AI software engineer. Our mission is to create a powerful tool that can handle complex engineering tasks and collaborate with developers to make software development faster and more efficient. By leveraging the open-source community, we aim to push the boundaries of what AI can do in software engineering.
 
 ## 🚧 Project Status
 
-Caren is currently a work in progress, but you can already run the alpha version to see the end-to-end system in action. The project team is actively working on the following key milestones:
+Caren is currently in alpha. While the end-to-end system is functional, the project is under active development and may be unstable. Key milestones include:
 
-- **UI**: Developing a user-friendly interface, including a chat interface, a shell demonstrating commands, and a web browser.
-- **Architecture**: Building a stable agent framework with a robust backend that can read, write, and run simple commands.
-- **Agent Capabilities**: Enhancing the agent's abilities to generate bash scripts, run tests, and perform other software engineering tasks.
-- **Evaluation**: Establishing a minimal evaluation pipeline that is consistent with Devin's evaluation criteria.
-
-After completing the MVP, the team will focus on research in various areas, including foundation models, specialist capabilities, evaluation, and agent studies.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
-
-## ⚠️ Caveats and Warnings
-* Caren is still an alpha project. It is changing very quickly and is unstable. We are working on getting a stable release out in the coming weeks.
-* Caren will issue many prompts to the LLM you configure. Most of these LLMs cost money--be sure to set spending limits and monitor usage.
-* Caren runs `bash` commands within a Docker sandbox, so it should not affect your machine. But your workspace directory will be attached to that sandbox, and files in the directory may be modified or deleted.
-* Our default Agent is currently the MonologueAgent, which has limited capabilities, but is fairly stable. We're working on other Agent implementations, including [SWE Agent](https://swe-agent.com/). You can [read about our current set of agents here](./docs/documentation/Agents.md).
+- **UI**: Developing a user-friendly interface with a chat, shell, and web browser.
+- **Architecture**: Building a stable and robust agent framework.
+- **Agent Capabilities**: Enhancing the agent's ability to perform complex engineering tasks.
+- **Evaluation**: Establishing a comprehensive evaluation pipeline.
 
 ## 🚀 Get Started
-The easiest way to run Caren is inside a Docker container.
-You can run:
+
+The easiest way to run Caren is with Docker.
+
 ```bash
 # Your OpenAI API key, or any other LLM API key
 export LLM_API_KEY="sk-..."
@@ -135,110 +59,28 @@ docker run \
     -p 3000:3000 \
     ghcr.io/Caren/caren:main
 ```
-Replace `$(pwd)/workspace` with the path to the code you want Caren to work with.
 
-You can find Caren running at `http://localhost:3000`.
+Caren will be available at `http://localhost:3000`.
 
-See [Development.md](Development.md) for instructions on running Caren without Docker.
-
-## 🤖 LLM Backends
-Caren can work with any LLM backend.
-For a full list of the LM providers and models available, please consult the
-[litellm documentation](https://docs.litellm.ai/docs/providers).
-
-The `LLM_MODEL` environment variable controls which model is used in programmatic interactions,
-but choosing a model in the Caren UI will override this setting.
-
-The following environment variables might be necessary for some LLMs:
-* `LLM_API_KEY`
-* `LLM_BASE_URL`
-* `LLM_EMBEDDING_MODEL`
-* `LLM_DEPLOYMENT_NAME`
-* `LLM_API_VERSION`
-
-**Note on Alternative Models:**
-Some alternative models may prove more challenging to tame than others.
-Fear not, brave adventurer! We shall soon unveil LLM-specific documentation to guide you on your quest.
-And if you've already mastered the art of wielding a model other than OpenAI's GPT,
-we encourage you to [share your setup instructions with us](https://github.com/Caren/Caren/issues/417).
-
-There is also [documentation for running with local models using ollama](./docs/documentation/LOCAL_LLM_GUIDE.md).
-
-## ⭐️ Research Strategy
-
-Achieving full replication of production-grade applications with LLMs is a complex endeavor. Our strategy involves:
-
-1. **Core Technical Research:** Focusing on foundational research to understand and improve the technical aspects of code generation and handling.
-2. **Specialist Abilities:** Enhancing the effectiveness of core components through data curation, training methods, and more.
-3. **Task Planning:** Developing capabilities for bug detection, codebase management, and optimization.
-4. **Evaluation:** Establishing comprehensive evaluation metrics to better understand and improve our models.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+For instructions on running Caren without Docker, see [Development.md](Development.md).
 
 ## 🤝 How to Contribute
 
-Caren is a community-driven project, and we welcome contributions from everyone. Whether you're a developer, a researcher, or simply enthusiastic about advancing the field of software engineering with AI, there are many ways to get involved:
-
-- **Code Contributions:** Help us develop the core functionalities, frontend interface, or sandboxing solutions.
-- **Research and Evaluation:** Contribute to our understanding of LLMs in software engineering, participate in evaluating the models, or suggest improvements.
-- **Feedback and Testing:** Use the Caren toolset, report bugs, suggest features, or provide feedback on usability.
-
-For details, please check [this document](./CONTRIBUTING.md).
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
+Caren is a community-driven project, and we welcome contributions from everyone. Whether you're a developer, a researcher, or simply enthusiastic about advancing the field of software engineering with AI, there are many ways to get involved. Please check out our [contribution guidelines](./CONTRIBUTING.md) to get started.
 
 ## 🤖 Join Our Community
 
-Now we have both Slack workspace for the collaboration on building Caren and Discord server for discussion about anything related, e.g., this project, LLM, agent, etc.
+Join our community to collaborate, share ideas, and help us improve Caren.
 
 * [Slack workspace](https://join.slack.com/t/Caren/shared_invite/zt-2etftj1dd-X1fDL2PYIVpsmJZkqEYANw)
 * [Discord server](https://discord.gg/mBuDGRzzES)
 
-If you would love to contribute, feel free to join our community (note that now there is no need to fill in the [form](https://forms.gle/758d5p6Ve8r2nxxq6)). Let's simplify software engineering together!
-
-🐚 **Code less, make more with Caren.**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Caren/Caren&type=Date)](https://star-history.com/#Caren/Caren&Date)
-
 ## 🛠️ Built With
 
-Caren is built using a combination of powerful frameworks and libraries, providing a robust foundation for its development. Here are the key technologies used in the project:
+Caren is built with a modern tech stack to ensure a robust and scalable platform.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-black?style=for-the-badge) ![uvicorn](https://img.shields.io/badge/uvicorn-black?style=for-the-badge) ![LiteLLM](https://img.shields.io/badge/LiteLLM-black?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-black?style=for-the-badge) ![Ruff](https://img.shields.io/badge/Ruff-black?style=for-the-badge) ![MyPy](https://img.shields.io/badge/MyPy-black?style=for-the-badge) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-black?style=for-the-badge) ![React](https://img.shields.io/badge/React-black?style=for-the-badge)
-
-Please note that the selection of these technologies is in progress, and additional technologies may be added or existing ones may be removed as the project evolves. We strive to adopt the most suitable and efficient tools to enhance the capabilities of Caren.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
 
 ## 📜 License
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
-
-<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
-    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
-        ↑ Back to Top ↑
-    </a>
-</p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/Caren/caren?style=for-the-badge
-[contributors-url]: https://github.com/Caren/Caren/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Caren/caren?style=for-the-badge
-[forks-url]: https://github.com/Caren/Caren/network/members
-[stars-shield]: https://img.shields.io/github/stars/Caren/caren?style=for-the-badge
-[stars-url]: https://github.com/Caren/Caren/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Caren/caren?style=for-the-badge
-[issues-url]: https://github.com/Caren/Caren/issues
-[license-shield]: https://img.shields.io/github/license/Caren/caren?style=for-the-badge
-[license-url]: https://github.com/Caren/Caren/blob/main/LICENSE

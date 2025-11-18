@@ -1,0 +1,11 @@
+
+# Clone repo
+git clone https://github.com/Abuyekasamwel/repo.git
+cd repo
+
+# Use filter-repo (recommended)
+git filter-repo --replace-email "old_email@example.com" --replace-name "Old Name" --name "New Name"
+
+# Force push
+git push origin --force --all
+git push origin --force --tags
