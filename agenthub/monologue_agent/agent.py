@@ -1,11 +1,11 @@
 from typing import List
-from opendevin.agent import Agent
-from opendevin.state import State
-from opendevin.llm.llm import LLM
-from opendevin.schema import ActionType, ObservationType
-from opendevin.exceptions import AgentNoInstructionError
+from ENola.agent import Agent
+from ENola.state import State
+from ENola.llm.llm import LLM
+from ENola.schema import ActionType, ObservationType
+from ENola.exceptions import AgentNoInstructionError
 
-from opendevin.action import (
+from ENola.action import (
     Action,
     NullAction,
     CmdRunAction,
@@ -16,7 +16,7 @@ from opendevin.action import (
     AgentThinkAction,
 )
 
-from opendevin.observation import (
+from ENola.observation import (
     Observation,
     NullObservation,
     CmdOutputObservation,

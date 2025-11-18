@@ -4,8 +4,8 @@ from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core import VectorStoreIndex
 from llama_index.vector_stores.chroma import ChromaVectorStore
 
-from opendevin import config
-from opendevin.logger import opendevin_logger as logger
+from ENola import config
+from ENola.logger import ENola_logger as logger
 from . import json
 
 embedding_strategy = config.get('LLM_EMBEDDING_MODEL')

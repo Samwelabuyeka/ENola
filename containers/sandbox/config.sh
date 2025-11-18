@@ -1,2 +1,2 @@
-DOCKER_REPOSITORY=ghcr.io/opendevin/sandbox
+DOCKER_REPOSITORY=ghcr.io/ENola/sandbox
 DOCKER_BASE_DIR="."

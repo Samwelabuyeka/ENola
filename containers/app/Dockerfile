@@ -45,10 +45,10 @@ ENV VIRTUAL_ENV=/app/.venv \
 
 COPY --from=backend-builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
-COPY ./opendevin ./opendevin
+COPY ./ENola ./ENola
 COPY ./agenthub ./agenthub
-RUN python opendevin/download.py # No-op to download assets
+RUN python ENola/download.py # No-op to download assets
 
 COPY --from=frontend-builder /app/dist ./frontend/dist
 
-CMD ["uvicorn", "opendevin.server.listen:app", "--host", "0.0.0.0", "--port", "3000"]
+CMD ["uvicorn", "ENola.server.listen:app", "--host", "0.0.0.0", "--port", "3000"]

@@ -2,12 +2,12 @@
 The generation of the backend architecture diagram is partially automated. The diagram is generated from the type hints in the code using the py2puml tool. The diagram is then manually reviewed, adjusted and exported to PNG and SVG.
 
 ## Prerequisites
-- Running python environment in which opendevin is executable (according to the instructions in the README.md file in the root of the repository)
+- Running python environment in which ENola is executable (according to the instructions in the README.md file in the root of the repository)
 - [py2puml](https://github.com/lucsorel/py2puml) installed
 
 ## Steps
 1. Autogenerate the diagram by running the following command from the root of the repository:  
-```py2puml opendevin opendevin > docs/architecture/backend_architecture.puml```
+```py2puml ENola ENola > docs/architecture/backend_architecture.puml```
 
 2. Open the generated file in a PlantUML editor, e.g. Visual Studio Code with the PlantUML extension or [PlantText](https://www.planttext.com/)
 

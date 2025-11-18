@@ -1,14 +1,14 @@
 from typing import List
-from opendevin.agent import Agent
-from opendevin.llm.llm import LLM
-from opendevin.state import State
-from opendevin.action import (
+from ENola.agent import Agent
+from ENola.llm.llm import LLM
+from ENola.state import State
+from ENola.action import (
     Action,
     AgentThinkAction,
     FileReadAction,
     FileWriteAction,
 )
-from opendevin.observation import Observation
+from ENola.observation import Observation
 
 from .parser import parse_command
 

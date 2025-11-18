@@ -351,7 +351,7 @@ FileWriteAction(path='game_of_life.py', content='pygame.display.update()\n    cl
 OBSERVATION:
 WRITE OPERATION:
 You have written to "game_of_life.py" on these lines: 95:95.
-16:43:55 - opendevin:INFO: agent_controller.py:125 - Exited before finishing the task.
+16:43:55 - ENola:INFO: agent_controller.py:125 - Exited before finishing the task.
 
 
 ```

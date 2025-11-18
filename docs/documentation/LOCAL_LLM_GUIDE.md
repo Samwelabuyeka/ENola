@@ -84,7 +84,7 @@ You should now be able to connect to `http://localhost:3001/` with your local mo
 
 ## Additional Notes for WSL2 Users:
 
-1. If you encounter the following error during setup: `Exception: Failed to create opendevin user in sandbox: b'useradd: UID 0 is not unique\n'`
+1. If you encounter the following error during setup: `Exception: Failed to create ENola user in sandbox: b'useradd: UID 0 is not unique\n'`
 You can resolve it by running:
     ```
     export SANDBOX_USER_ID=1000

@@ -1,11 +1,11 @@
 from typing import List
 from .prompt import get_prompt, parse_response
 
-from opendevin.agent import Agent
-from opendevin.action import AgentFinishAction
-from opendevin.llm.llm import LLM
-from opendevin.state import State
-from opendevin.action import Action
+from ENola.agent import Agent
+from ENola.action import AgentFinishAction
+from ENola.llm.llm import LLM
+from ENola.state import State
+from ENola.action import Action
 
 
 class PlannerAgent(Agent):
